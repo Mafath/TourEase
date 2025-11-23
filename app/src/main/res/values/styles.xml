@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources> <!-- Circle shape for ShapeableImageView -->
+    <style name="ShapeAppearanceOverlay.RoundedFull" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
+
+    <!-- Reusable styles for the sidebar rows -->
+    <style name="DrawerRowStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">48dp</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingStart">12dp</item>
+        <item name="android:paddingEnd">12dp</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+        <item name="android:foreground">?attr/selectableItemBackground</item>
+    </style>
+
+    <style name="DrawerRowIcon">
+        <item name="android:layout_width">20dp</item>
+        <item name="android:layout_height">20dp</item>
+        <item name="android:tint">#222222</item>
+    </style>
+
+    <style name="DrawerRowText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">12dp</item>
+        <item name="android:textColor">#111111</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+
+
+</resources>

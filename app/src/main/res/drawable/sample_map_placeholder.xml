@@ -1,0 +1,74 @@
+<!-- res/drawable/sample_map_placeholder_detailed.xml -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="400dp" android:height="240dp"
+    android:viewportWidth="400" android:viewportHeight="240">
+
+    <!-- base -->
+    <path android:fillColor="#F6F8FA" android:pathData="M0,0H400V240H0Z"/>
+
+    <!-- water -->
+    <path android:fillColor="#D7ECFF"
+        android:pathData="M0,150 C60,120 120,170 200,150 C280,130 340,170 400,140 L400,240 L0,240 Z"/>
+    <path android:fillColor="#D7ECFF"
+        android:pathData="M250,40 C270,35 295,50 305,68 C312,82 302,100 286,105 C268,111 245,100 240,83 C235,66 238,46 250,40 Z"/>
+
+    <!-- parks -->
+    <path android:fillColor="#E1F3E3"
+        android:pathData="M30,25 h80 a10,10 0 0 1 10,10 v25 a10,10 0 0 1 -10,10 h-80 a10,10 0 0 1 -10,-10 v-25 a10,10 0 0 1 10,-10 z"/>
+    <path android:fillColor="#E1F3E3"
+        android:pathData="M330,170 h50 a8,8 0 0 1 8,8 v28 a8,8 0 0 1 -8,8 h-50 a8,8 0 0 1 -8,-8 v-28 a8,8 0 0 1 8,-8 z"/>
+
+    <!-- subtle grid -->
+    <path android:strokeColor="#EDF0F2" android:strokeWidth="1"
+        android:pathData="M0,40H400 M0,80H400 M0,120H400 M0,160H400 M0,200H400"/>
+    <path android:strokeColor="#EDF0F2" android:strokeWidth="1"
+        android:pathData="M40,0V240 M80,0V240 M120,0V240 M160,0V240 M200,0V240 M240,0V240 M280,0V240 M320,0V240 M360,0V240"/>
+
+    <!-- major roads -->
+    <path android:strokeColor="#FFFFFF" android:strokeWidth="12" android:strokeLineJoin="round" android:strokeLineCap="round"
+        android:pathData="M10,210 L70,190 L130,200 L220,180 L320,190 L390,170"/>
+    <path android:strokeColor="#FFFFFF" android:strokeWidth="12" android:strokeLineJoin="round" android:strokeLineCap="round"
+        android:pathData="M40,30 L90,70 L150,90 L210,85 L270,60 L330,70 L380,110"/>
+
+    <!-- road outlines -->
+    <path android:strokeColor="#D7DBE0" android:strokeWidth="2" android:strokeLineJoin="round" android:strokeLineCap="round"
+        android:pathData="M10,210 L70,190 L130,200 L220,180 L320,190 L390,170"/>
+    <path android:strokeColor="#D7DBE0" android:strokeWidth="2" android:strokeLineJoin="round" android:strokeLineCap="round"
+        android:pathData="M40,30 L90,70 L150,90 L210,85 L270,60 L330,70 L380,110"/>
+
+    <!-- secondary roads -->
+    <path android:strokeColor="#FFFFFF" android:strokeWidth="8" android:strokeLineCap="round"
+        android:pathData="M110,30 L120,120 L140,160 L170,190"/>
+    <path android:strokeColor="#FFFFFF" android:strokeWidth="8" android:strokeLineCap="round"
+        android:pathData="M250,30 L230,70 L210,120 L200,160"/>
+
+    <!-- bridge -->
+    <path android:strokeColor="#D0D5DC" android:strokeWidth="10" android:strokeLineCap="round"
+        android:pathData="M160,150 L240,130"/>
+
+    <!-- buildings -->
+    <path android:fillColor="#EAECEF" android:pathData="M80,135 h40 v22 h-40 z"/>
+    <path android:fillColor="#EAECEF" android:pathData="M145,140 h28 v20 h-28 z"/>
+    <path android:fillColor="#EAECEF" android:pathData="M300,115 h36 v24 h-36 z"/>
+    <path android:fillColor="#EAECEF" android:pathData="M325,30 h40 v22 h-40 z"/>
+
+    <!-- pins -->
+    <path android:fillColor="#FF5A3C"
+        android:pathData="M95,90a12,12 0 1 1 24,0c0,10 -12,22 -12,22s-12,-12 -12,-22z"/>
+    <path android:fillColor="#FF5A3C"
+        android:pathData="M205,120a12,12 0 1 1 24,0c0,10 -12,22 -12,22s-12,-12 -12,-22z"/>
+    <path android:fillColor="#FF5A3C"
+        android:pathData="M295,65a12,12 0 1 1 24,0c0,10 -12,22 -12,22s-12,-12 -12,-22z"/>
+    <path android:fillColor="#FF5A3C"
+        android:pathData="M60,175a12,12 0 1 1 24,0c0,10 -12,22 -12,22s-12,-12 -12,-22z"/>
+
+    <!-- pin centers -->
+    <path android:fillColor="#FFFFFF" android:pathData="M107,90a5,5 0 1 1 10,0a5,5 0 1 1 -10,0z"/>
+    <path android:fillColor="#FFFFFF" android:pathData="M217,120a5,5 0 1 1 10,0a5,5 0 1 1 -10,0z"/>
+    <path android:fillColor="#FFFFFF" android:pathData="M307,65a5,5 0 1 1 10,0a5,5 0 1 1 -10,0z"/>
+    <path android:fillColor="#FFFFFF" android:pathData="M72,175a5,5 0 1 1 10,0a5,5 0 1 1 -10,0z"/>
+
+    <!-- border -->
+    <path android:strokeColor="#D9DDE3" android:strokeWidth="1"
+        android:pathData="M0.5,0.5H399.5V239.5H0.5Z"/>
+</vector>

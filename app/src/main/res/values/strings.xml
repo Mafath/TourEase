@@ -1,0 +1,313 @@
+<resources>
+    <string name="app_name">TourEase</string>
+
+    <!-- Splash Screen -->
+    <string name="T">T</string>
+    <string name="u">u</string>
+    <string name="r">r</string>
+    <string name="E">E</string>
+    <string name="a">a</string>
+    <string name="s">s</string>
+    <string name="e">e</string>
+
+    <!-- Onboarding 1 -->
+    <string name="Onboarding1_title">Explore Sri Lanka\nwith Us</string>
+    <string name="Onboarding1_description">Discover the island’s most beautiful destinations, handpicked just for you</string>
+    <string name="next">Next</string>
+    <string name="skip">Skip</string>
+
+    <!-- Onboarding 2 -->
+    <string name="Onboarding2_title">Expert Tour Guides\nat Your Service</string>
+    <string name="Onboarding2_description">Explore hidden spots with trusted local guides who bring your journey to life</string>
+
+    <!-- Onboarding 3 -->
+    <string name="Onboarding3_title">Easy Booking,\nStress‑Free Stays</string>
+    <string name="Onboarding3_description">Find and book hotels, hostels, and cozy stays quickly — all from within the app</string>
+
+    <!-- Get Started -->
+    <string name="getStarted_description">Start your journey with TourEase</string>
+
+    <!-- Signup -->
+    <string name="signup_title">Create Account</string>
+    <string name="signup_description">Please enter your credentials to proceed</string>
+    <string name="name">Name</string>
+    <string name="nameExample">Mafath</string>
+    <string name="email">Email address</string>
+    <string name="emailExample">mafath@gmail.com</string>
+    <string name="password">Password</string>
+    <string name="passwordExample">••••••••••••</string>
+    <string name="or">  or  </string>
+    <string name="google">  Continue with Gmail</string>
+    <string name="fb">  Continue with Facebook</string>
+    <string name="alreadyUser">Already have an account? </string>
+    <string name="login">Login!</string>
+
+    <!-- Signin -->
+    <string name="signin_title">Welcome</string>
+    <string name="signin_description">Hello there, login to continue</string>
+    <string name="signin_button">Log In</string>
+    <string name="signin_forgot">Forgot Password ?</string>
+    <string name="signin_footer_prompt">Don’t have an account? </string>
+    <string name="signin_register">Register!</string>
+
+    <!-- Forgot Password -->
+    <string name="forgot_password">Forgot password</string>
+    <string name="forgot_password_description">Enter your email for the verification processes,\nwe will send 4 digits code to your email.</string>
+    <string name="forgot_password_continue">Forgot Password ?</string>
+
+    <!-- verify email -->
+    <string name="code">Enter 4 Digits Code</string>
+    <string name="code_email">Enter the 4 digits code that you received on your email.</string>
+    <string name="number5">5</string>
+    <string name="number3">3</string>
+    <string name="number0">0</string>
+    <string name="did_not_get_code">Did not receive code?</string>
+    <string name="resend">Resend</string>
+    <string name="continue_text">Continue</string>
+
+    <!-- reset password -->
+    <string name="reset">Reset Password</string>
+    <string name="reset_description">Set the new password for your account so you can login and access all the features.</string>
+    <string name="new_password">New Password</string>
+    <string name="reenter">Re-enter Password</string>
+    <string name="update">Update Password</string>
+
+    <!-- home page -->
+        <!-- Content descriptions -->
+        <string name="cd_profile">Profile</string>
+        <string name="cd_notifications">Notifications</string>
+        <string name="cd_chat">Chat</string>
+        <string name="cd_search">Search</string>
+        <string name="cd_promo">Promotional banner</string>
+
+        <!-- Greetings -->
+        <string name="greeting_title">Hello, Good Morning !</string>
+        <string name="greeting_name">Mafath !</string>
+
+        <!-- Search -->
+        <string name="search_hint">explore places, and tours</string>
+
+        <!-- Quick bookings -->
+        <string name="quick_bookings_title">quick bookings</string>
+        <string name="see_all">See All</string>
+        <string name="quick_rooms">Hotel Rooms</string>
+        <string name="quick_vehicle">Vehicle Rent</string>
+        <string name="quick_guides">Hire Guides</string>
+        <string name="quick_restaurants">Restaurant Reservations</string>
+        <string name="quick_transfers">Airport Transfers</string>
+
+        <!-- Categories -->
+        <string name="spot_title">find your next spot</string>
+        <string name="cat_beach">Beach</string>
+        <string name="cat_surfing">Surfing</string>
+        <string name="cat_coral">Coral</string>
+        <string name="cat_safari">Safari</string>
+
+        <!-- Popular -->
+        <string name="popular_title">Popular Destinations</string>
+        <string name="popular_subtitle">Join Some Of Our Popular Tours In Colombo,\nGalle, Ella, Kandy</string>
+        <string name="cd_wishlist">Add to wishlist</string>
+        <string name="dest_title_placeholder">Destination title</string>
+        <string name="rating_format_5">Rating 5/5</string>
+        <string name="rating_format_4">Rating 4/5</string>
+        <string name="ella">Ella</string>
+        <string name="horton">Horton Plains</string>
+        <string name="mirissa">Mirissa</string>
+        <string name="sigiriya">Sigiriya</string>
+        <string name="yala">Yala National Park</string>
+        <string name="galle">Galle</string>
+        <string name="kandy">Kandy</string>
+        <string name="favourites_title">Favourites</string>
+
+    <!-- Drawer / Profile menu -->
+    <string name="cd_close">Close</string>
+    <string name="user_name_sample">Mafath</string>
+    <string name="menu_manage_profile">Manage Profile</string>
+    <string name="menu_privacy">Privacy &amp; Security</string>
+    <string name="menu_help">Help &amp; Support</string>
+    <string name="menu_notifications">Notification &amp; Settings</string>
+    <string name="menu_about">About Us</string>
+    <string name="menu_contact">Contact Support</string>
+    <string name="menu_logout">Log Out</string>
+
+    <!-- logout -->
+    <string name="logout">Logout</string>
+    <string name="logout_description">Are you sure you want to log out?</string>
+    <string name="logout_cancel">Cancel</string>
+    <string name="logoutConfirm">Yes, Logout</string>
+
+    <!-- Mirissa tour -->
+    <string name="tour_title">Mirissa Tour</string>
+    <string name="tour_days">3 Days</string>
+    <string name="people">16</string>
+    <string name="tour_price">$350 per person</string>
+    <string name="overview">Overview</string>
+    <string name="point_1">Surfing</string>
+    <string name="point_2">Whale Watching</string>
+    <string name="point_3">Snorkelling and Swimming</string>
+    <string name="point_4">Sunset Watching</string>
+    <string name="point_5">Parrot Rock Hike</string>
+    <string name="point_6">Fishing Tours</string>
+    <string name="point_7">Coconut Tree Hill</string>
+    <string name="facilities">Facilities</string>
+    <string name="home">Accomodation</string>
+    <string name="guides">Local Tour Guide</string>
+    <string name="meals">All Meals Included</string>
+    <string name="sport">Sporting Equipments</string>
+    <string name="register_tour">Register Now</string>
+
+    <!-- Tour payment page -->
+    <string name="payment_title">Payment</string>
+    <string name="tour_name">Mirissa Tour</string>
+    <string name="rating_value">4.0</string>
+    <string name="review_count">(12 Reviews)</string>
+    <string name="label_charge">Charge</string>
+    <string name="charge_per_person">per person</string>
+    <string name="price_per_person">$350</string>
+    <string name="vat_label">Vat (5%)</string>
+    <string name="vat_value">$56</string>
+    <string name="for_two_people">For 2 people</string>
+    <string name="subtotal_value">$700</string>
+    <string name="total_label">Total</string>
+    <string name="total_value">$756</string>
+    <string name="select_payment_method">Select payment method</string>
+    <string name="visa_mask">****  ****  ****  8970</string>
+    <string name="master_mask">****  ****  ****  9270</string>
+    <string name="paypal_email">mafath@gmail.com</string>
+    <string name="expires_12_26">Expires: 12/26</string>
+
+    <!-- Tour payment progress page -->
+    <string name="in_progress">Payment is in progress</string>
+    <string name="please_wait">Please, wait a few moments</string>
+
+    <!-- Tour payment success page -->
+    <string name="success_payment">Payment Success</string>
+    <string name="amount">Amount</string>
+    <string name="in_dollars">$756</string>
+    <string name="go_to_home">Go to Home</string>
+
+    <!-- Profile Page -->
+    <string name="cd_see_all">See details</string>
+    <string name="profile_title">Profile</string>
+    <string name="edit_profile_picture">Edit profile picture</string>
+    <string name="display_name">Mafath</string>
+    <string name="label_name">Name</string>
+    <string name="label_phone">Phone Number</string>
+    <string name="label_email">Email</string>
+    <string name="label_country">Country</string>
+    <string name="label_address">Address</string>
+    <string name="label_emergency">Emergency Number</string>
+    <string name="value_name">Ahamed Mafath</string>
+    <string name="value_phone">+94702249636</string>
+    <string name="value_email">ahamedmafath@gmail.com</string>
+    <string name="value_country">Norway</string>
+    <string name="value_address">+947265812806</string>
+    <string name="value_emergency">+947265812806</string>
+
+    <!--quick bookings page-->
+    <string name="quick_bookings_page_title">Quick Bookings</string>
+    <string name="item_hotel">Hotel Room Booking</string>
+    <string name="item_trip">Plan Your Trip</string>
+    <string name="item_guides">Hire Tour Guides</string>
+    <string name="item_rides">Nearby Rides</string>
+    <string name="item_medical">Medical Appointments</string>
+    <string name="item_restaurant">Restaurant Reservations</string>
+    <string name="item_add">Add</string>
+
+    <!--Hotel Rooms page-->
+    <string name="hotel_rooms_title">Hotel Rooms</string>
+    <string name="hint_city">Colombo</string>
+    <string name="section_hotels_around_city">Hotels Around Colombo</string>
+    <string name="sort_popular">Popular</string>
+    <string name="hotel1_title">Grand Oriental Hotel</string>
+    <string name="hotel1_address">• 246, Mott St, Colombo 3</string>
+    <string name="hotel1_tag_seaside">Sea Side</string>
+    <string name="hotel1_tag_scenic">Scenic</string>
+    <string name="hotel1_tag_kid_friendly">kid friendly</string>
+    <string name="hotel2_title">The Ocean Colombo</string>
+    <string name="hotel2_address">• 13, Sea st, Colombo 7</string>
+    <string name="hotel3_title">The People’s Brownstone</string>
+    <string name="hotel3_address">• 1995 Broadway, Colombo 5</string>
+    <string name="hotel3_tag_rooftop">Rooftop</string>
+    <string name="hotel3_tag_parking">Parking</string>
+
+
+
+    <!--Tour guides page-->
+    <string name="guides_title">Explore With a Local who\nKnows The Real Stories</string>
+    <string name="guides_hint_search">Search Tour Guides</string>
+    <string name="guides_sort_by">Sort By</string>
+    <string name="guides_sort_az">A - Z</string>
+    <string name="guide_1">Mr. Dilan Turner</string>
+    <string name="guide_description_1">Passionate local guide with 5+ years...</string>
+    <string name="info">Info</string>
+    <string name="guide_2">Mr. Ivan Kadher</string>
+    <string name="guide_description_2">Your local travel buddy...</string>
+    <string name="guide_3">Mrs. Mariya Perera</string>
+    <string name="guide_4">Mr. Melwin Fernando</string>
+    <string name="guide_5">Mr. Rohan De Zoysa</string>
+
+
+    <!--Tour guide payment page-->
+    <string name="charge_per_hour">per hour</string>
+    <string name="price_per_hour">$70</string>
+    <string name="vat_value_2">$20</string>
+    <string name="for_3_days">For 3 days</string>
+    <string name="value_for_3_days">$210</string>
+    <string name="subtotal_value_2">$230</string>
+
+
+    <!-- Tour guide payment success page -->
+    <string name="in_dollars_2">$230</string>
+
+
+    <!--Trip Planning page-->
+    <string name="trip_title">Plan Your Trip</string>
+    <string name="trip_label_dates">Select your trip dates</string>
+    <string name="trip_hint_start">Start date</string>
+    <string name="trip_hint_end">End date</string>
+    <string name="trip_label_destination">Destination</string>
+    <string name="trip_hint_destination">Where are you going?</string>
+    <string name="trip_label_interests">Your Interests</string>
+    <string name="interest_beaches">Beaches</string>
+    <string name="interest_food">Food</string>
+    <string name="interest_culture">Culture</string>
+    <string name="interest_nature">Nature</string>
+    <string name="interest_wildlife">Wildlife</string>
+    <string name="interest_adventure">Adventure</string>
+    <string name="interest_shopping">Shopping</string>
+    <string name="trip_label_budget">Budget Level</string>
+    <string name="budget_budget">Budget</string>
+    <string name="budget_standard">Standard</string>
+    <string name="budget_luxury">Luxury</string>
+    <string name="trip_label_style">Travel Style</string>
+    <string name="style_relaxed">Relaxed</string>
+    <string name="style_balanced">Balanced</string>
+    <string name="style_packed">Packed</string>
+    <string name="trip_btn_generate">Generate Itinerary</string>
+
+    <!--    activity_tourguide_person-->
+    <string name="guide_name">Mr. Dilan Turner</string>
+    <string name="years">5+ years</string>
+    <string name="schedule">Schedule</string>
+    <string name="photo">Good Photographer</string>
+    <string name="on_time">On time</string>
+    <string name="friendly">Friendly</string>
+    <string name="rate">4.0</string>
+    <string name="reviews">(12 Reviews)</string>
+
+    <string name="add_feedback">Add Feedback +</string>
+    <string name="Profile">Profile</string>
+    <string name="description">Passionate local guide with 5+ years of experience showing travelers the hidden gems of Sri Lanka. Fluent in English. From bustling cities to serene beaches, I’ll make sure your journey is safe, fun, and unforgettable. Your Sri Lankan buddy awaits!</string>
+    <string name="fun_fact">Fun Fact : I take great pictures</string>
+    <string name="price">from just $70/day</string>
+    <string name="from">From</string>
+    <string name="from_date">2025 April 20</string>
+    <string name="to">To</string>
+    <string name="to_date">2025 May 05</string>
+    <string name="book">Book Now</string>
+
+
+
+    <string name="get_start">Get Started</string>
+</resources>

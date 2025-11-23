@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.tourease">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:label="TourEase"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.TourEase"
+        tools:targetApi="31">
+
+        <activity
+            android:name=".SplashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Onboarding1Activity" />
+        <activity android:name=".Onboarding2Activity" />
+        <activity android:name=".Onboarding3Activity" />
+        <activity android:name=".GetStartedActivity" />
+        <activity android:name=".SignupActivity" />
+        <activity android:name=".SigninActivity" />
+        <activity android:name=".HomePageActivity" />
+        <activity android:name=".QuickBookingsActivity" />
+        <activity android:name=".ProfileMenuActivity" />
+        <activity android:name=".ManageProfileActivity" />
+        <activity android:name=".HotelRoomActivity" />
+        <activity android:name=".FavouritesActivity" />
+        <activity android:name=".TourGuideActivity" />
+        <activity android:name=".TourGuidePersonActivity" />
+        <activity android:name=".CalenderActivity" />
+        <activity android:name=".PaymentActivity" />
+        <activity android:name=".PaymentProgressActivity" />
+        <activity android:name=".PaymentSuccessActivity" />
+        <activity android:name=".TourActivity" />
+        <activity android:name=".TourPaymentActivity" />
+        <activity android:name=".TourPaymentProgressActivity" />
+        <activity android:name=".TourPaymentSuccessActivity" />
+        <activity android:name=".LogoutMenuActivity" />
+        <activity android:name=".ForgotPasswordActivity" />
+        <activity android:name=".VerifyEmailActivity" />
+        <activity android:name=".ResetPasswordActivity" />
+        <activity android:name=".PlanActivity" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+    </application>
+</manifest>

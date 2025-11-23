@@ -1,0 +1,7 @@
+<!-- File: res/drawable/rounded_input_field_with_border.xml -->
+<!-- This drawable provides a rounded corner shape with a solid white background and a gray border. -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners android:radius="8dp" />
+    <solid android:color="@color/white" />
+    <stroke android:width="1dp" android:color="@color/light_gray" />
+</shape>

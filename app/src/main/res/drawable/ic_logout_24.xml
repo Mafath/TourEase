@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android" android:width="24dp" android:height="24dp" android:viewportWidth="24" android:viewportHeight="24">
+    <!-- Door + left arrow (logout) -->
+    <path android:fillColor="#FF000000" android:pathData="M10 17l1.41-1.41L8.83 13H20v-2H8.83l2.58-2.59L10 7l-5 5 5 5zM4 5h6V3H4a2 2 0 0 0 -2 2v14a2 2 0 0 0 2 2h6v-2H4V5z"/>
+</vector>

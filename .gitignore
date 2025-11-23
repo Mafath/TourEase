@@ -1,0 +1,58 @@
+*.iml
+.gradle
+/.gradle/
+/build/
+/app/build/
+**/build/
+
+# Local configuration
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+/.idea/shelf/
+/.idea/*
+.DS_Store
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+
+# Generated files
+*.apk
+*.aar
+*.ap_*
+*.aab
+*.dex
+*.class
+*.kotlin_module
+
+# Logs and tmp
+*.log
+*.tmp
+*.orig
+
+# Keystores (never commit real keys)
+*.keystore
+*.jks
+
+# Gradle
+gradle-app.setting
+!gradle/wrapper/gradle-wrapper.jar
+
+# Mac/Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Android Studio profiler / captures
+captures/
+
+# Navigation safe args/generated
+**/build/generated/
+
+# Kotlin incremental compilation
+.kotlin

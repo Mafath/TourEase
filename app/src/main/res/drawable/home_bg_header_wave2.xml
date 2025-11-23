@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="400dp"
+    android:height="240dp"
+    android:viewportWidth="400"
+    android:viewportHeight="240">
+
+    <!-- Base fill -->
+    <path
+        android:fillColor="#36C2A6"
+        android:pathData="M0,0 H400 V240 H0 Z"/>
+
+    <!-- Wave 1 (subtle, far) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:fillAlpha="0.12"
+        android:pathData="
+            M -20,220
+            C 60,200 130,180 200,160
+            C 270,140 340,115 420,90
+            L 420,240 L -20,240 Z"/>
+
+    <!-- Wave 2 -->
+    <path
+        android:fillColor="#4FD1B9"
+        android:fillAlpha="0.28"
+        android:pathData="
+            M -20,200
+            C 70,175 145,155 215,135
+            C 290,115 355,95 420,78
+            L 420,220 L -20,235 Z"/>
+
+    <!-- Wave 3 -->
+    <path
+        android:fillColor="#2EB69A"
+        android:fillAlpha="0.36"
+        android:pathData="
+            M -20,180
+            C 85,155 170,135 245,115
+            C 320,95 375,80 420,68
+            L 420,200 L -20,220 Z"/>
+
+    <!-- Wave 4 -->
+    <path
+        android:fillColor="#24A78D"
+        android:fillAlpha="0.46"
+        android:pathData="
+            M -20,160
+            C 95,135 190,115 270,98
+            C 345,82 395,72 420,66
+            L 420,180 L -20,200 Z"/>
+
+    <!-- Wave 5 (front, strongest) -->
+    <path
+        android:fillColor="#1E907A"
+        android:fillAlpha="0.58"
+        android:pathData="
+            M -20,145
+            C 110,120 210,100 300,86
+            C 360,78 395,74 420,72
+            L 420,150 L -20,175 Z"/>
+</vector>

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?> <resources> <!-- App theme (light) --> <style name="Theme.TourEase" parent="Theme.Material3.Light.NoActionBar"> <!-- Brand colors --> <item name="colorPrimary">#36C2A6</item> <item name="colorSecondary">#36C2A6</item>
+</style>
+</resources>

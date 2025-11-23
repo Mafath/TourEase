@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--    Primary color  -->
+    <color name="tour_ease_teal">#36C2A6</color>
+
+    <!--    Secondary color  -->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+
+    <!--    Accent colors  -->
+    <color name="gray">#777777</color>
+    <color name="dark_gray">#A9A9A9</color>
+    <color name="light_gray">#D3D3D3</color>
+    <color name="bg_gray">#D3D3D3</color>
+
+
+    <!--    Other used colors  -->
+    <color name="tour_ease_light_teal">#69C6AA</color>
+    <color name="dim_black">#99000000</color>
+    <color name="Chip_blue">#0A66FF</color>
+    <color name="Chip_pink">#FF5AAE</color>
+    <color name="star_blue">#0A66FF</color>
+    <color name="star_gray">@color/gray</color>
+
+</resources>

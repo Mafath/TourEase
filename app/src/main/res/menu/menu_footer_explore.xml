@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/ic_home_outline"
+        android:title="Home" />
+    <item
+        android:id="@+id/nav_fav"
+        android:icon="@drawable/ic_heart_outline"
+        android:title="Favorites" />
+    <item
+        android:id="@+id/nav_grid"
+        android:icon="@drawable/ic_grid_2x2"
+        android:title="Grid" />
+    <item
+        android:id="@+id/nav_profile"
+        android:icon="@drawable/ic_user_outline"
+        android:title="Profile" />
+</menu>
